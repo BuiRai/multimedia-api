@@ -4,7 +4,7 @@ var mongoose = require('mongoose'),
 var CategorySchema = new Schema({
 	name: {
 		type: String,
-		required: 'Debes de establecer el nombre de la categoria',
+		required: 'You must to be fill the name',
 		unique: true
 	}
 });
