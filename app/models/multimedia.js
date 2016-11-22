@@ -2,7 +2,9 @@
  * Created by buirai on 21/11/2016.
  */
 
-mongoose = require('mongoose'),
+'use strict';
+
+var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var MultimediaSchema = new Schema({
