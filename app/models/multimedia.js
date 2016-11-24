@@ -40,8 +40,7 @@ var MultimediaSchema = new Schema({
     },
     categories: [{
         type: Schema.ObjectId,
-        ref: 'Category',
-        required: 'You must to be fill at least one category'
+        ref: 'Category'
     }]
 });
 
