@@ -85,7 +85,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/House_of_Cards_(serie_de_televisi%C3%B3n_de_2013)',
         urlVideo: 'https://youtu.be/ULwUzF1q5w4',
         year: '2013-01-01',
-        categories: [1]
+        categories: []
     });
     var prissionBreak = new Multimedia({
         title: 'Prision Break',
@@ -244,10 +244,9 @@ module.exports = function () {
             function() {
                 Multimedia.remove({}, function (err, _categories) {
                     console.log("Delete all multimedias");
-                })
+                });
             },
             function () {
-                console.info("LISTA DE ID'S:", ids);
                 houseOfCards.save(function (err, _category) {
                     console.log("House of Cards multimedia created successfully");
                 });

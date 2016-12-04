@@ -18,6 +18,13 @@ module.exports = function (db) {
   }));
   app.use(bodyParser.json());
 
+  // CORS access
+  app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    next();
+  });
+
   require('../app/routes/categories.server.routes')(app);
   require('../app/routes/multimedias.server.routes')(app);
 
