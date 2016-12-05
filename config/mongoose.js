@@ -13,6 +13,7 @@ module.exports = function () {
 
     require('./../app/models/category');
     require('./../app/models/multimedia');
+    require('./../app/models/user');
     // seedDB();
     return db;
 };
