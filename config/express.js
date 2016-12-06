@@ -27,6 +27,7 @@ module.exports = function (db) {
 
   require('../app/routes/categories.server.routes')(app);
   require('../app/routes/multimedias.server.routes')(app);
+  require('../app/routes/user.server.routes')(app);
 
   app.use(express.static('./public'));
 
