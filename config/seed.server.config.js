@@ -48,21 +48,25 @@ module.exports = function () {
             },
             function () {
                 comedy.save(function (err, _category) {
+                    ids.comedy = _category._id;
                     console.log("Comedy category created successfully");
                 });
             },
             function () {
                 drama.save(function (err, _category) {
+                    ids.drama = _category._id;
                     console.log("Drama category created successfully");
                 });
             },
             function () {
                 action.save(function (err, _category) {
+                    ids.action = _category._id;
                     console.log("Action category created successfully");
                 });
             },
             function () {
                 romance.save(function (err, _category) {
+                    ids.remance = _category._id;
                     console.log("Romance category created successfully");
                 });
             }
@@ -85,7 +89,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/House_of_Cards_(serie_de_televisi%C3%B3n_de_2013)',
         urlVideo: 'https://youtu.be/ULwUzF1q5w4',
         year: '2013-01-01',
-        categories: []
+        categories: [drama]
     });
     var prissionBreak = new Multimedia({
         title: 'Prision Break',
@@ -95,7 +99,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Prison_Break',
         urlVideo: 'https://youtu.be/x9T-9fZn_oA',
         year: '2013-01-01',
-        categories: []
+        categories: [drama, action]
     });
     var breakingBad = new Multimedia({
         title: 'Breaking Bad',
@@ -105,7 +109,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Breaking_Bad',
         urlVideo: 'https://youtu.be/HhesaQXLuRY',
         year: '2013-01-01',
-        categories: []
+        categories: [action, drama]
     });
     var the100 = new Multimedia({
         title: 'The 100',
@@ -115,7 +119,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/The_100',
         urlVideo: 'https://youtu.be/aDrsItJ_HU4',
         year: '2013-01-01',
-        categories: []
+        categories: [terror, drama, action]
     });
     var terranova = new Multimedia({
         title: 'Terranova',
@@ -125,7 +129,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Terra_Nova_(serie_de_televisi%C3%B3n)',
         urlVideo: 'https://youtu.be/uBb6Kyd7vAc',
         year: '2013-01-01',
-        categories: []
+        categories: [action, drama]
     });
     var americanHorrorStory = new Multimedia({
         title: 'American Horror Story',
@@ -135,7 +139,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/American_Horror_Story',
         urlVideo: 'https://youtu.be/-9KZr2Vn7CQ',
         year: '2013-01-01',
-        categories: []
+        categories: [terror, romance]
     });
     var betterCallSaul = new Multimedia({
         title: 'Better Call Saul',
@@ -145,7 +149,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Better_Call_Saul',
         urlVideo: 'https://youtu.be/lK_70f7PamE',
         year: '2013-01-01',
-        categories: []
+        categories: [drama, comedy]
     });
     var blackMirror = new Multimedia({
         title: 'Black Mirror',
@@ -155,7 +159,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Black_Mirror_(serie_de_televisi%C3%B3n)',
         urlVideo: 'https://youtu.be/jROLrhQkK78',
         year: '2011-01-01',
-        categories: []
+        categories: [romance, terror, action, drama]
     });
     var strangerThings = new Multimedia({
         title: 'Stranger Things',
@@ -166,7 +170,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Stranger_Things',
         urlVideo: 'https://youtu.be/XWxyRG_tckY',
         year: '2016-01-01',
-        categories: []
+        categories: [terror, action]
     });
     var scream = new Multimedia({
         title: 'Scream',
@@ -176,7 +180,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Scream_(serie_de_televisi%C3%B3n)',
         urlVideo: 'https://youtu.be/qqzgSjZQlLo',
         year: '2015-01-01',
-        categories: []
+        categories: [terror, drama, action]
     });
     var narcos = new Multimedia({
         title: 'Narcos',
@@ -186,7 +190,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Narcos',
         urlVideo: 'https://youtu.be/U7elNhHwgBU',
         year: '2015-01-01',
-        categories: []
+        categories: [action, drama]
     });
     var theWalkingDead = new Multimedia({
         title: 'The Walking Dead',
@@ -196,7 +200,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/The_Walking_Dead_(serie_de_televisi%C3%B3n)',
         urlVideo: 'https://youtu.be/GJRNHAJAcYg',
         year: '2010-01-01',
-        categories: []
+        categories: [terror, action]
     });
     var underTheDome = new Multimedia({
         title: 'Under the Dome',
@@ -206,7 +210,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Under_the_Dome',
         urlVideo: 'https://youtu.be/f_Y5YeYrqUk',
         year: '2013-01-01',
-        categories: []
+        categories: [action, drama]
     });
     var lost = new Multimedia({
         title: 'Under the Dome',
@@ -216,7 +220,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Lost',
         urlVideo: 'https://youtu.be/f_Y5YeYrqUk',
         year: '2010-01-01',
-        categories: []
+        categories: [action]
     });
     var marcoPolo = new Multimedia({
         title: 'Marco Polo',
@@ -226,7 +230,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Marco_Polo_(serie_de_televisi%C3%B3n_de_2014)',
         urlVideo: 'https://youtu.be/KWtv5Ht4YZE',
         year: '2015-01-01',
-        categories: []
+        categories: [action]
     });
     var zoo = new Multimedia({
         title: 'Zoo',
@@ -236,7 +240,7 @@ module.exports = function () {
         urlInfo: 'https://es.wikipedia.org/wiki/Zoo_(serie_de_televisi%C3%B3n)',
         urlVideo: 'https://youtu.be/YKr70mFxf_w',
         year: '2015-01-01',
-        categories: []
+        categories: [action, drama]
     });
 
     var seedDataBaseMultimedias = function(callback) {
@@ -332,5 +336,12 @@ module.exports = function () {
     };
 
     seedDataBaseCategories();
-    seedDataBaseMultimedias();
+    // seedDataBaseMultimedias();
+    
+    (function() {
+        setTimeout(function(){
+            console.log(ids);
+            seedDataBaseMultimedias();
+        }, 2000);
+    })();
 };

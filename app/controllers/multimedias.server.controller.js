@@ -23,7 +23,7 @@ exports.create = function (req, res) {
 };
 
 exports.list = function (req, res) {
-    Multimedia.find(function (err, __multimedias) {
+    Multimedia.find().populate('categories').exec(function (err, __multimedias) {
         if (err) {
             res.status(404).send({
                 error: err
