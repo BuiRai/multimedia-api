@@ -19,6 +19,17 @@ exports.create = function (req, res) {
 };
 
 exports.login = function(req, res){
-    console.log(req);
+    console.log(req.body);
+    User.findOne({ 'usuario': req.body.usuario, 'pass': req.body.pass }).exec(function(err,userFinded){
+        if (err) {
+            res.status(404).send({
+                error: err
+            });
+        }else{
+            res.json(userFinded);
+        }
+
+    });
+
 };
 

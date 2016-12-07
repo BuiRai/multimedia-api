@@ -15,11 +15,19 @@ var UserSchema = new Schema({
         type: String,
         required: 'You must to be fill the title'
     },
+    email: {
+        type: String,
+        required: 'You mues to be fill the title'
+    },
     usuario: {
         type: String,
         required: 'You must to be fill the title'
     },
     pass: {
+        type: String,
+        required: 'You must to be fill the title'
+    },
+    preferencia: {
         type: String,
         required: 'You must to be fill the title'
     }
