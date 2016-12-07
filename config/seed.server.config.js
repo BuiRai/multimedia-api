@@ -87,7 +87,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/hoc_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/House_of_Cards_(serie_de_televisi%C3%B3n_de_2013)',
-        urlVideo: 'https://youtu.be/ULwUzF1q5w4',
+        urlVideo: 'videos/serie_hoc.mp4',
         year: '2013-01-01',
         categories: [drama]
     });
@@ -97,7 +97,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/pb_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Prison_Break',
-        urlVideo: 'https://youtu.be/x9T-9fZn_oA',
+        urlVideo: 'videos/serie_pb.mp4',
         year: '2013-01-01',
         categories: [drama, action]
     });
@@ -107,7 +107,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/bb_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Breaking_Bad',
-        urlVideo: 'https://youtu.be/HhesaQXLuRY',
+        urlVideo: 'videos/serie_bb.mp4',
         year: '2013-01-01',
         categories: [action, drama]
     });
@@ -117,7 +117,7 @@ module.exports = function () {
         qualification: 4,
         urlImage: 'images/previews/t100_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/The_100',
-        urlVideo: 'https://youtu.be/aDrsItJ_HU4',
+        urlVideo: 'videos/serie_the100.mp4',
         year: '2013-01-01',
         categories: [terror, drama, action]
     });
@@ -127,7 +127,7 @@ module.exports = function () {
         qualification: 4,
         urlImage: 'images/previews/terranova_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Terra_Nova_(serie_de_televisi%C3%B3n)',
-        urlVideo: 'https://youtu.be/uBb6Kyd7vAc',
+        urlVideo: 'videos/serie_tn.mp4',
         year: '2013-01-01',
         categories: [action, drama]
     });
@@ -137,7 +137,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/ahs_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/American_Horror_Story',
-        urlVideo: 'https://youtu.be/-9KZr2Vn7CQ',
+        urlVideo: 'videos/serie_ahs.mp4',
         year: '2013-01-01',
         categories: [terror, romance]
     });
@@ -147,7 +147,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/bcs_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Better_Call_Saul',
-        urlVideo: 'https://youtu.be/lK_70f7PamE',
+        urlVideo: 'videos/serie_bcs.mp4',
         year: '2013-01-01',
         categories: [drama, comedy]
     });
@@ -157,7 +157,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/bm_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Black_Mirror_(serie_de_televisi%C3%B3n)',
-        urlVideo: 'https://youtu.be/jROLrhQkK78',
+        urlVideo: 'videos/serie_bm.mp4',
         year: '2011-01-01',
         categories: [romance, terror, action, drama]
     });
@@ -168,7 +168,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/st_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Stranger_Things',
-        urlVideo: 'https://youtu.be/XWxyRG_tckY',
+        urlVideo: 'videos/serie_st.mp4',
         year: '2016-01-01',
         categories: [terror, action]
     });
@@ -178,7 +178,7 @@ module.exports = function () {
         qualification: 4,
         urlImage: 'images/previews/scream_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Scream_(serie_de_televisi%C3%B3n)',
-        urlVideo: 'https://youtu.be/qqzgSjZQlLo',
+        urlVideo: 'videos/serie_scream.mp4',
         year: '2015-01-01',
         categories: [terror, drama, action]
     });
@@ -188,7 +188,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/narcos_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Narcos',
-        urlVideo: 'https://youtu.be/U7elNhHwgBU',
+        urlVideo: 'videos/serie_narcos.mp4',
         year: '2015-01-01',
         categories: [action, drama]
     });
@@ -198,7 +198,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/twd_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/The_Walking_Dead_(serie_de_televisi%C3%B3n)',
-        urlVideo: 'https://youtu.be/GJRNHAJAcYg',
+        urlVideo: 'videos/serie_twd.mp4',
         year: '2010-01-01',
         categories: [terror, action]
     });
@@ -208,7 +208,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/utd_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Under_the_Dome',
-        urlVideo: 'https://youtu.be/f_Y5YeYrqUk',
+        urlVideo: 'videos/serie_utd.mp4',
         year: '2013-01-01',
         categories: [action, drama]
     });
@@ -218,7 +218,7 @@ module.exports = function () {
         qualification: 5,
         urlImage: 'images/previews/lost_prev.png',
         urlInfo: 'https://es.wikipedia.org/wiki/Lost',
-        urlVideo: 'https://youtu.be/f_Y5YeYrqUk',
+        urlVideo: 'videos/serie_lost.mp4',
         year: '2010-01-01',
         categories: [action]
     });
@@ -228,7 +228,7 @@ module.exports = function () {
         qualification: 4,
         urlImage: 'images/previews/mp_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Marco_Polo_(serie_de_televisi%C3%B3n_de_2014)',
-        urlVideo: 'https://youtu.be/KWtv5Ht4YZE',
+        urlVideo: 'videos/serie_mp.mp4',
         year: '2015-01-01',
         categories: [action]
     });
@@ -238,7 +238,7 @@ module.exports = function () {
         qualification: 4,
         urlImage: 'images/previews/zoo_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Zoo_(serie_de_televisi%C3%B3n)',
-        urlVideo: 'https://youtu.be/YKr70mFxf_w',
+        urlVideo: 'videos/serie_zoo.mp4',
         year: '2015-01-01',
         categories: [action, drama]
     });
