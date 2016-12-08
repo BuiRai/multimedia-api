@@ -82,6 +82,7 @@ module.exports = function () {
      */
 
     var houseOfCards = new Multimedia({
+        type: 'serie',
         title: 'House of Cards',
         description: 'Un demócrata del 5.º distrito congresional de Carolina del Sur y líder de la mayoría de la Cámara de Representantes de los Estados Unidos, tras haber sido pasado por alto para su nombramiento como Secretario de Estado, inicia una elaborado plan para llegar a una posición de mayor poder, ayudado por su esposa, Claire Underwood.',
         qualification: 5,
@@ -92,6 +93,7 @@ module.exports = function () {
         categories: [drama]
     });
     var prissionBreak = new Multimedia({
+        type: 'serie',
         title: 'Prision Break',
         description: 'La trama de la serie gira en torno a un hombre llamado Michael Scofield, que en un elaborado plan para rescatar a su hermano Lincoln Burrows, entra a Fox River una penitenciaría de máxima seguridad cerca de Chicago, para sacar a su hermano acusado por un falso asesinato del hermano de la vicepresidenta.',
         qualification: 5,
@@ -102,6 +104,7 @@ module.exports = function () {
         categories: [drama, action]
     });
     var breakingBad = new Multimedia({
+        type: 'serie',
         title: 'Breaking Bad',
         description: 'Es una serie de televisión dramática estadounidense creada y producida por Vince Gilligan. Breaking Bad narra la historia de Walter White (Bryan Cranston), un profesor de química con problemas económicos a quien le diagnostican un cáncer de pulmón inoperable.',
         qualification: 5,
@@ -112,6 +115,7 @@ module.exports = function () {
         categories: [action, drama]
     });
     var the100 = new Multimedia({
+        type: 'serie',
         title: 'The 100',
         description: 'En un futuro post apocalíptico, 97 años después de un desastre nuclear que destruyó la civilización, los humanos que sobreviven en una estación espacial envían una avanzadilla de 100 jóvenes delincuentes para tratar de averiguar si es posible reconquistar la Tierra.',
         qualification: 4,
@@ -122,6 +126,7 @@ module.exports = function () {
         categories: [terror, drama, action]
     });
     var terranova = new Multimedia({
+        type: 'serie',
         title: 'Terranova',
         description: 'En 2149 los humanos están en peligro de extinción debido a la superpoblación y a la contaminación del aire. Cuando los científicos descubren una grieta en el continuo espacio-tiempo, deciden enviar una cápsula para determinar cuándo y dónde aparecerá lo que atraviese la grieta, pero por alguna razón la cápsula no llega al presente.',
         qualification: 4,
@@ -132,6 +137,7 @@ module.exports = function () {
         categories: [action, drama]
     });
     var americanHorrorStory = new Multimedia({
+        type: 'serie',
         title: 'American Horror Story',
         description: 'Se ha descrito como una serie antológica, ya que cada temporada se hace como una miniserie independiente, con un grupo de personajes, escenarios distintos y una trama que tiene su propio comienzo, desarrollo y final.',
         qualification: 5,
@@ -142,6 +148,7 @@ module.exports = function () {
         categories: [terror, romance]
     });
     var betterCallSaul = new Multimedia({
+        type: 'serie',
         title: 'Better Call Saul',
         description: 'Serie de televisión estadounidense creada por Vince Gilligan y Peter Gould. Se trata de un spin off precuela de Breaking Bad. Ubicándose en el año 2002, la ficción gira en torno al abogado James Morgan  McGill, seis años antes de su aparición en Breaking Bad como Saul Goodman.',
         qualification: 5,
@@ -152,6 +159,7 @@ module.exports = function () {
         categories: [drama, comedy]
     });
     var blackMirror = new Multimedia({
+        type: 'serie',
         title: 'Black Mirror',
         description: 'Serie de televisión británica creada por Charlie Brooker y producida por Zeppotron para Endemol. La serie gira en torno a cómo la tecnología afecta nuestras vidas, en ocasiones sacando lo peor de nosotros',
         qualification: 5,
@@ -162,6 +170,7 @@ module.exports = function () {
         categories: [romance, terror, action, drama]
     });
     var strangerThings = new Multimedia({
+        type: 'serie',
         title: 'Stranger Things',
         description: 'La historia nos sitúa en Indiana durante los años 80, donde un chico de 12 años desaparece misteriosamente. Al mismo tiempo, una niña con poderes telequinéticos intentará ayudar a los amigos del chico en su intento de encontrarlo.',
         imageSrc: 'images/previews/st_prev.jpg',
@@ -173,6 +182,7 @@ module.exports = function () {
         categories: [terror, action]
     });
     var scream = new Multimedia({
+        type: 'serie',
         title: 'Scream',
         description: 'Scream es una serie de televisión creada por Bob y Harvey Weinstein, basados en la franquicia de películas del mismo nombre, escrita por Kevin Williamson y dirigida por Wes Craven.',
         qualification: 4,
@@ -183,6 +193,7 @@ module.exports = function () {
         categories: [terror, drama, action]
     });
     var narcos = new Multimedia({
+        type: 'serie',
         title: 'Narcos',
         description: 'serie web estadounidense de drama criminal, que fue estrenada el 28 de agosto de 2015 en Netflix.1 La serie fue creada por Chris Brancato, Eric Newman y Carlo Bernard, y es una toma orientada en la vida del líder del Cartel de Medellín, Pablo Escobar.',
         qualification: 5,
@@ -193,6 +204,7 @@ module.exports = function () {
         categories: [action, drama]
     });
     var theWalkingDead = new Multimedia({
+        type: 'serie',
         title: 'The Walking Dead',
         description: 'Serie de televisión creada y producida por Frank Darabont y basada en el cómic homónimo de Robert Kirkman. La serie se sitúa en un mundo postapocalíptico donde un oficial de policía que al despertar de un coma se encuentra con un mundo repleto de zombis salvajes. Al encontrar a su familia, se une a un grupo de supervivientes a los que llega a encabezar. La historia, ambientada principalmente en Georgia, Estados Unidos, narra las vivencias de dicho grupo, el cual se enfrenta tanto a la plaga que se ha esparcido como a otros grupos de humanos que también luchan por subsistir.',
         qualification: 5,
@@ -203,6 +215,7 @@ module.exports = function () {
         categories: [terror, action]
     });
     var underTheDome = new Multimedia({
+        type: 'serie',
         title: 'Under the Dome',
         description: 'Todo comienza en Chesters Mill, un pueblo en Maine, cuando Dale Bárbara está enterrando un cuerpo en las afueras del pueblo. Cuando está a punto de marcharse, una gran barrera invisible cae a unos metros de él y así todo el pueblo queda atrapado. Dale ve rápidamente cómo aviones y automóviles se estrellan contra la barrera y quedan completamente destruidos.',
         qualification: 5,
@@ -213,6 +226,7 @@ module.exports = function () {
         categories: [action, drama]
     });
     var lost = new Multimedia({
+        type: 'serie',
         title: 'Under the Dome',
         description: 'Serie dramática que se centra en las vivencias de los "supervivientes" de un accidente aéreo en una isla desierta. Por lo general, cada episodio narra una historia principal que tiene lugar en la isla, intercalada con varios segmentos de una historia secundaria.',
         qualification: 5,
@@ -223,6 +237,7 @@ module.exports = function () {
         categories: [action]
     });
     var marcoPolo = new Multimedia({
+        type: 'serie',
         title: 'Marco Polo',
         description: 'Marco Polo es una serie estadounidense de drama que explora la vida de Marco Polo bajo el mando de Kublai Khan, el Khagan del Imperio mongol y el fundador de la dinastía Yuan, la cual existió entre los años 1271 y 1368.',
         qualification: 4,
@@ -233,6 +248,7 @@ module.exports = function () {
         categories: [action]
     });
     var zoo = new Multimedia({
+        type: 'serie',
         title: 'Zoo',
         description: 'Ataques de animales violentos contra los seres humanos se están produciendo en todo el mundo. Jackson Oz, un zoólogo estadounidense y su amigo de Kenia, Abraham, un guía de safari, así como una reportera de Los Angeles, un patólogo veterinario peculiar, y una agente de la inteligencia francesa son reclutados para iniciar una investigación sobre la misteriosa epidemia que provoca que los animales ataquen a las personas , cada vez de manera más feroz y coordinada.',
         qualification: 4,

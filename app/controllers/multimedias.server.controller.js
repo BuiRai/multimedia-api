@@ -39,6 +39,7 @@ exports.read = function (req, res) {
 
 exports.update = function (req, res) {
     var multimedia = req.multimedia;
+    multimedia.type = req.body.type;
     multimedia.title = req.body.title;
     multimedia.description = req.body.description;
     multimedia.year = req.body.year;
