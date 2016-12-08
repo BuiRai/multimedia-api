@@ -8,6 +8,10 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 var MultimediaSchema = new Schema({
+    type: {
+        type: String,
+        required: 'You must to be fill the title'
+    },
     title: {
         type: String,
         required: 'You must to be fill the title'
