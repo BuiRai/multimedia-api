@@ -13,8 +13,10 @@ exports.create = function (req, res) {
             res.status(404).send({
                 error: err
             });
+        }else{
+            res.json(user);
         }
-        res.json(user);
+
     });
 };
 
