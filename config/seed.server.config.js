@@ -86,7 +86,7 @@ module.exports = function () {
         title: 'House of Cards',
         description: 'Un demócrata del 5.º distrito congresional de Carolina del Sur y líder de la mayoría de la Cámara de Representantes de los Estados Unidos, tras haber sido pasado por alto para su nombramiento como Secretario de Estado, inicia una elaborado plan para llegar a una posición de mayor poder, ayudado por su esposa, Claire Underwood.',
         qualification: 5,
-        urlImage: 'images/previews/hoc_prev.jpg',
+        urlImage: 'images/previews/series/hoc_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/House_of_Cards_(serie_de_televisi%C3%B3n_de_2013)',
         urlVideo: 'videos/serie_hoc.mp4',
         year: '2013-01-01',
@@ -97,7 +97,7 @@ module.exports = function () {
         title: 'Prision Break',
         description: 'La trama de la serie gira en torno a un hombre llamado Michael Scofield, que en un elaborado plan para rescatar a su hermano Lincoln Burrows, entra a Fox River una penitenciaría de máxima seguridad cerca de Chicago, para sacar a su hermano acusado por un falso asesinato del hermano de la vicepresidenta.',
         qualification: 5,
-        urlImage: 'images/previews/pb_prev.jpg',
+        urlImage: 'images/previews/series/pb_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Prison_Break',
         urlVideo: 'videos/serie_pb.mp4',
         year: '2013-01-01',
@@ -108,7 +108,7 @@ module.exports = function () {
         title: 'Breaking Bad',
         description: 'Es una serie de televisión dramática estadounidense creada y producida por Vince Gilligan. Breaking Bad narra la historia de Walter White (Bryan Cranston), un profesor de química con problemas económicos a quien le diagnostican un cáncer de pulmón inoperable.',
         qualification: 5,
-        urlImage: 'images/previews/bb_prev.jpg',
+        urlImage: 'images/previews/series/bb_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Breaking_Bad',
         urlVideo: 'videos/serie_bb.mp4',
         year: '2013-01-01',
@@ -119,7 +119,7 @@ module.exports = function () {
         title: 'The 100',
         description: 'En un futuro post apocalíptico, 97 años después de un desastre nuclear que destruyó la civilización, los humanos que sobreviven en una estación espacial envían una avanzadilla de 100 jóvenes delincuentes para tratar de averiguar si es posible reconquistar la Tierra.',
         qualification: 4,
-        urlImage: 'images/previews/t100_prev.jpg',
+        urlImage: 'images/previews/series/t100_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/The_100',
         urlVideo: 'videos/serie_the100.mp4',
         year: '2013-01-01',
@@ -130,7 +130,7 @@ module.exports = function () {
         title: 'Terranova',
         description: 'En 2149 los humanos están en peligro de extinción debido a la superpoblación y a la contaminación del aire. Cuando los científicos descubren una grieta en el continuo espacio-tiempo, deciden enviar una cápsula para determinar cuándo y dónde aparecerá lo que atraviese la grieta, pero por alguna razón la cápsula no llega al presente.',
         qualification: 4,
-        urlImage: 'images/previews/terranova_prev.jpg',
+        urlImage: 'images/previews/series/terranova_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Terra_Nova_(serie_de_televisi%C3%B3n)',
         urlVideo: 'videos/serie_tn.mp4',
         year: '2013-01-01',
@@ -141,7 +141,7 @@ module.exports = function () {
         title: 'American Horror Story',
         description: 'Se ha descrito como una serie antológica, ya que cada temporada se hace como una miniserie independiente, con un grupo de personajes, escenarios distintos y una trama que tiene su propio comienzo, desarrollo y final.',
         qualification: 5,
-        urlImage: 'images/previews/ahs_prev.jpg',
+        urlImage: 'images/previews/series/ahs_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/American_Horror_Story',
         urlVideo: 'videos/serie_ahs.mp4',
         year: '2013-01-01',
@@ -152,7 +152,7 @@ module.exports = function () {
         title: 'Better Call Saul',
         description: 'Serie de televisión estadounidense creada por Vince Gilligan y Peter Gould. Se trata de un spin off precuela de Breaking Bad. Ubicándose en el año 2002, la ficción gira en torno al abogado James Morgan  McGill, seis años antes de su aparición en Breaking Bad como Saul Goodman.',
         qualification: 5,
-        urlImage: 'images/previews/bcs_prev.jpg',
+        urlImage: 'images/previews/series/bcs_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Better_Call_Saul',
         urlVideo: 'videos/serie_bcs.mp4',
         year: '2013-01-01',
@@ -163,7 +163,7 @@ module.exports = function () {
         title: 'Black Mirror',
         description: 'Serie de televisión británica creada por Charlie Brooker y producida por Zeppotron para Endemol. La serie gira en torno a cómo la tecnología afecta nuestras vidas, en ocasiones sacando lo peor de nosotros',
         qualification: 5,
-        urlImage: 'images/previews/bm_prev.jpg',
+        urlImage: 'images/previews/series/bm_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Black_Mirror_(serie_de_televisi%C3%B3n)',
         urlVideo: 'videos/serie_bm.mp4',
         year: '2011-01-01',
@@ -175,7 +175,7 @@ module.exports = function () {
         description: 'La historia nos sitúa en Indiana durante los años 80, donde un chico de 12 años desaparece misteriosamente. Al mismo tiempo, una niña con poderes telequinéticos intentará ayudar a los amigos del chico en su intento de encontrarlo.',
         imageSrc: 'images/previews/st_prev.jpg',
         qualification: 5,
-        urlImage: 'images/previews/st_prev.jpg',
+        urlImage: 'images/previews/series/st_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Stranger_Things',
         urlVideo: 'videos/serie_st.mp4',
         year: '2016-01-01',
@@ -186,7 +186,7 @@ module.exports = function () {
         title: 'Scream',
         description: 'Scream es una serie de televisión creada por Bob y Harvey Weinstein, basados en la franquicia de películas del mismo nombre, escrita por Kevin Williamson y dirigida por Wes Craven.',
         qualification: 4,
-        urlImage: 'images/previews/scream_prev.jpg',
+        urlImage: 'images/previews/series/scream_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Scream_(serie_de_televisi%C3%B3n)',
         urlVideo: 'videos/serie_scream.mp4',
         year: '2015-01-01',
@@ -197,7 +197,7 @@ module.exports = function () {
         title: 'Narcos',
         description: 'serie web estadounidense de drama criminal, que fue estrenada el 28 de agosto de 2015 en Netflix.1 La serie fue creada por Chris Brancato, Eric Newman y Carlo Bernard, y es una toma orientada en la vida del líder del Cartel de Medellín, Pablo Escobar.',
         qualification: 5,
-        urlImage: 'images/previews/narcos_prev.jpg',
+        urlImage: 'images/previews/series/narcos_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Narcos',
         urlVideo: 'videos/serie_narcos.mp4',
         year: '2015-01-01',
@@ -208,7 +208,7 @@ module.exports = function () {
         title: 'The Walking Dead',
         description: 'Serie de televisión creada y producida por Frank Darabont y basada en el cómic homónimo de Robert Kirkman. La serie se sitúa en un mundo postapocalíptico donde un oficial de policía que al despertar de un coma se encuentra con un mundo repleto de zombis salvajes. Al encontrar a su familia, se une a un grupo de supervivientes a los que llega a encabezar. La historia, ambientada principalmente en Georgia, Estados Unidos, narra las vivencias de dicho grupo, el cual se enfrenta tanto a la plaga que se ha esparcido como a otros grupos de humanos que también luchan por subsistir.',
         qualification: 5,
-        urlImage: 'images/previews/twd_prev.jpg',
+        urlImage: 'images/previews/series/twd_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/The_Walking_Dead_(serie_de_televisi%C3%B3n)',
         urlVideo: 'videos/serie_twd.mp4',
         year: '2010-01-01',
@@ -219,7 +219,7 @@ module.exports = function () {
         title: 'Under the Dome',
         description: 'Todo comienza en Chesters Mill, un pueblo en Maine, cuando Dale Bárbara está enterrando un cuerpo en las afueras del pueblo. Cuando está a punto de marcharse, una gran barrera invisible cae a unos metros de él y así todo el pueblo queda atrapado. Dale ve rápidamente cómo aviones y automóviles se estrellan contra la barrera y quedan completamente destruidos.',
         qualification: 5,
-        urlImage: 'images/previews/utd_prev.jpg',
+        urlImage: 'images/previews/series/utd_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Under_the_Dome',
         urlVideo: 'videos/serie_utd.mp4',
         year: '2013-01-01',
@@ -230,7 +230,7 @@ module.exports = function () {
         title: 'Under the Dome',
         description: 'Serie dramática que se centra en las vivencias de los "supervivientes" de un accidente aéreo en una isla desierta. Por lo general, cada episodio narra una historia principal que tiene lugar en la isla, intercalada con varios segmentos de una historia secundaria.',
         qualification: 5,
-        urlImage: 'images/previews/lost_prev.png',
+        urlImage: 'images/previews/series/lost_prev.png',
         urlInfo: 'https://es.wikipedia.org/wiki/Lost',
         urlVideo: 'videos/serie_lost.mp4',
         year: '2010-01-01',
@@ -241,7 +241,7 @@ module.exports = function () {
         title: 'Marco Polo',
         description: 'Marco Polo es una serie estadounidense de drama que explora la vida de Marco Polo bajo el mando de Kublai Khan, el Khagan del Imperio mongol y el fundador de la dinastía Yuan, la cual existió entre los años 1271 y 1368.',
         qualification: 4,
-        urlImage: 'images/previews/mp_prev.jpg',
+        urlImage: 'images/previews/series/mp_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Marco_Polo_(serie_de_televisi%C3%B3n_de_2014)',
         urlVideo: 'videos/serie_mp.mp4',
         year: '2015-01-01',
@@ -252,11 +252,58 @@ module.exports = function () {
         title: 'Zoo',
         description: 'Ataques de animales violentos contra los seres humanos se están produciendo en todo el mundo. Jackson Oz, un zoólogo estadounidense y su amigo de Kenia, Abraham, un guía de safari, así como una reportera de Los Angeles, un patólogo veterinario peculiar, y una agente de la inteligencia francesa son reclutados para iniciar una investigación sobre la misteriosa epidemia que provoca que los animales ataquen a las personas , cada vez de manera más feroz y coordinada.',
         qualification: 4,
-        urlImage: 'images/previews/zoo_prev.jpg',
+        urlImage: 'images/previews/series/zoo_prev.jpg',
         urlInfo: 'https://es.wikipedia.org/wiki/Zoo_(serie_de_televisi%C3%B3n)',
         urlVideo: 'videos/serie_zoo.mp4',
         year: '2015-01-01',
         categories: [action, drama]
+    });
+    var penguinsOfMadagascar = new Multimedia({
+        type: 'movie',
+        title: 'Pinguinos de Madagascar',
+        description: 'Los intrépidos y valerosos pingüinos, Skipper, Kowalski, Rico y Private (Cabo en Hispanoamérica), regresan a la acción y ahora deben unir sus fuerzas con la organización secreta de espionaje de la más alta tecnología y elegancia, el Viento del Norte (Ráfaga Polar en Hispanoamérica), liderada por el lobo "Clasificado" y su equipo, Eva, el cerebro, Montaña, la fuerza y Mecha Corta, la foca experta en explosivos y demoliciones, para detener los diabólicos planes del malvado pulpo que se puede transformar en una persona, el Dr. Octavius Brine (Octavio Salitre en Hispanoamérica), de convertir a los pingüinos en monstruos horripilantes debido a experiencias que paso cuando llegaron los cuatro intrépidos pingüinos al zoológico de Central Park en Nueva York cuando todos lo olvidaron debido a su llegada.',
+        qualification: 5,
+        urlImage: 'images/previews/movies/pom_prev.jpg',
+        urlInfo: 'https://es.wikipedia.org/wiki/Los_ping%C3%BCinos_de_Madagascar_(pel%C3%ADcula)',
+        urlVideo: 'videos/movie_pom.mp4',
+        year: '2015-01-10',
+        categories: [comedy, action]
+    });
+
+    var RiaruOnigokko = new Multimedia({
+        type: 'movie',
+        title: 'Riaru Onigokko',
+        description: 'Mejor conocida por su título en inglés, Tag..1 2 3 Es una película japonesa. Pertenece al genero splatter con elementos de acción, terror, surrealismo, suspenso y filosofía. Fue dirigida por Sion Sono.4 El film viene de una adaptación de la novela, del mismo nombre. Del escritor y guionista, Yusuke Yamada.5 Se estrenó en Japón, el 11 de julio de 2015. Es distribuida por Shochiku, Asmik Ace Entertainment y Universal Pictures.',
+        qualification: 4,
+        urlImage: 'images/previews/movies/ro_prev.jpg',
+        urlInfo: 'https://es.wikipedia.org/wiki/Tag_(pel%C3%ADcula)',
+        urlVideo: 'videos/movie_ro.mp4',
+        year: '2015-01-10',
+        categories: [terror, drama, action]
+    });
+
+    var xMen = new Multimedia({
+        type: 'movie',
+        title: 'X Men - Apocalipsis',
+        description: 'X-Men: Apocalipsis es una película de acción y aventura de 2016 perteneciente a la saga fílmica de X-Men. Está dirigida por Bryan Singer y su distribuidora es 20th Century Fox. Su estreno fue el 20 de mayo de 2016. Su guionista y productor, Simon Kinberg, ha asegurado que será la última entrega de la trilogía empezada con X-Men: Primera Generación.2',
+        qualification: 5,
+        urlImage: 'images/previews/movies/xma_prev.jpg',
+        urlInfo: 'https://es.wikipedia.org/wiki/X-Men:_Apocalipsis',
+        urlVideo: 'videos/movie_xma.mp4',
+        year: '2015-01-10',
+        categories: [action]
+    });
+
+    var equals = new Multimedia({
+        type: 'movie',
+        title: 'Equals',
+        description: 'En una sociedad utópica futurista, las emociones humanas han sido erradicadas y todo el mundo vive en paz pero cuándo unas enfermedades nuevas surgen, todo cambia para el ilustrador Silas (Hoult). Este se convierte en un sobreviviente infectado y está unido a su co-escritor de trabajo Nia (Stewart), quién esta también infectada pero ella  esconde su condición. Para sobrevivir, tienen que huir juntos.',
+        qualification: 5,
+        urlImage: 'images/previews/movies/equals_prev.jpg',
+        urlInfo: 'https://es.wikipedia.org/wiki/Equals_(pel%C3%ADcula)',
+        urlVideo: 'videos/movie_equals.mp4',
+        year: '2015-01-10',
+        categories: [romance]
     });
 
     var seedDataBaseMultimedias = function(callback) {
@@ -345,7 +392,27 @@ module.exports = function () {
                 zoo.save(function (err, _category) {
                     console.log("Zoo of Cards multimedia created successfully");
                 });
-            }
+            },
+            function () {
+                penguinsOfMadagascar.save(function(err, _category){
+                    console.log("Penguins of Madagascar multimedia created successfully");
+                });
+            },
+            function() {
+                RiaruOnigokko.save(function(err, _category){
+                    console.log("Riaru Onigokko multimedia created successfully");
+                });
+            },
+            function() {
+                xMen.save(function (err, _category){
+                    console.log("X Men Apocalipsis multimedia created successfully");
+                });
+            },
+            function () {
+                equals.save(function(err, _category){
+                    console.log("Equals multimedia created successfully");
+                });
+            },
         ], function(err, res) {
             if (!err) return callback.apply(null, data);
         });
